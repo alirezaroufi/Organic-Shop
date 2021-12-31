@@ -1,0 +1,93 @@
+.active-green{
+    color: #8bc34a!important;
+   
+}
+.navbar a:hover{
+    color: #8bc34a!important;
+}
+.navbar{
+    margin-top: 15px!important;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.mt-40{
+    margin-top: 40px!important;
+}
+.detail-head h1{
+    line-height: 80px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.detail-head p{
+    font-size: 17px;
+    margin: 10px;
+}
+ button.btn-sabz{
+    color: #fff;
+    background-color: #8bc34a;
+    border-radius: 30px;
+    margin-top: 40px;
+    transition: .3s;
+    border: none;
+    padding: 10px;
+}
+ button.btn-sabz span,i{
+    padding: 4px;
+}
+ button.btn-sabz:hover{
+    background-color: #709743;
+}
+.element-section{
+    background-color: #052335;
+    height: auto;
+}
+
+
+
+
+.element-section .card-element .card-head{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+} 
+.element-section .card-element .card-head i{
+    color: #8bc34a;
+}
+.element-section .card-element{
+    background-color: #1c2f3c;
+    margin: 15px;
+    color: #fff;
+}
+.element-section .card-body{
+    padding-right: 40px;
+    text-align: center;
+}
+.element-section .card-head{
+    margin-top: 20px;
+}
+
+.color-star{
+    color: #8bc34a;
+}
+
+.mt-80{
+    margin-top: 80px!important;
+}
+.mb-40{
+    margin-bottom: 40px!important;
+}
+
+.off-section{
+    background-color: #1c2f3c;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.off-section .btn-sabz{
+    margin-top: 0!important;
+}

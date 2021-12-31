@@ -1,0 +1,31 @@
+@import url(./_nav.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@font-face{
+    font-family: vazir;
+    src: url(../font/Vazir-Medium.eot) format(eot),
+    url(../font/Vazir-Medium.woff) format(woff),
+    url(../font/Vazir-Medium.woff2) format(woff2);
+    font-style: 700px;
+    font-weight: normal;
+}
+*,
+body{
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+li
+,ol
+,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+a{
+    text-decoration: none;
+}
