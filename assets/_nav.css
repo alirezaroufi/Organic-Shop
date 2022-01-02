@@ -72,8 +72,15 @@
     color: #8bc34a;
 }
 
+.p-20{
+    padding-bottom: 40px;
+
+}
 .mt-80{
     margin-top: 80px!important;
+}
+.mb-80{
+    margin-bottom: 80px!important;
 }
 .mb-40{
     margin-bottom: 40px!important;
@@ -84,10 +91,38 @@
     height: auto;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
 }
-.off-section .btn-sabz{
-    margin-top: 0!important;
+@media only screen and (max-width:900px) {
+    .off-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+}
+.product-down .btn-sabz{
+    margin: 0!important;
+
+    padding: 2px;
+}
+.product-down{
+    padding: 10px;
+    margin: 0 auto!important;
+}
+
+.card-shadow{
+    box-shadow: 0px 0px 10px 0px rgb(40 40 40 / 10%);
+    margin: 0 auto;
+}
+.comment-sec{
+    margin-top: 150px;
+}
+@media only screen and (max-width:900px) {
+    .comment-sec{
+        margin-top: 40px;
+    }   
 }
