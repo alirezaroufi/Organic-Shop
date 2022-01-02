@@ -126,3 +126,16 @@
         margin-top: 40px;
     }   
 }
+
+.brands img{
+    filter: grayscale(1);
+    transition: .3s;
+    margin: px;
+}
+.brands img:hover{
+    filter: grayscale(0);
+}
+.brands{
+    justify-content: center;
+    align-items: center;
+}
