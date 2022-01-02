@@ -1,15 +1,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
-@font-face{
-    font-family: vazir;
-    src: url(../assets/font/Vazir-Medium.eot) format(eot),
-    url(../assets/font/Vazir-Medium.woff) format(woff),
-    url(../assets/font/Vazir-Medium.woff2) format(woff2);
-    font-style: 700px;
-    font-weight: normal;
+@font-face {
+    font-family: "shabnam";
+    src: url(../assets/font/Shabnam.ttf);
 }
 *,
 body{
-    font-family: vazir;
+    font-family: "shabnam";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
